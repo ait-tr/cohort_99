@@ -1,5 +1,0 @@
-class TestClass {
-
-  private int counter = 0;
-
-}
