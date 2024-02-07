@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label>
+            <p>Имя:</p>
+            <input type="text" name="phone" placeholder="Имя">
+        </label>
+        <label>
+            <p>Фамилия:</p>
+            <input type="text" name="password" placeholder="Фамилия">
+        </label>
+        <label>
+            <p>Возраст:</p>
+            <input 
+                type="number" 
+                min="0" 
+                max="140" 
+                step="0.1" 
+                name="age" 
+                placeholder="Возраст"
+            >
+        </label>
+        <label>
+            <p>Пароль:</p>
+            <input type="password" name="password" placeholder="password">
+        </label>
+        <label>
+            <p>Пол:</p>
+            <select name="gender">
+                <option value="m">male</option>
+                <option value="f">female</option>
+            </select>
+        </label>
+        <button>Отправить</button>
+    </form>
+
+<!-- 
+    добавить новое поле пол в виде выпадающего меню
+ -->
+
+
+    <form>
+        <label>
+            <p>Наименование: </p>
+            <input type="text" name="title" placeholder="наименование">
+        </label>
+        <label>
+            <p>Цена: </p>
+            <input type="number" min="0" step="0.01" name="price" placeholder="цена">
+        </label>
+        <label>
+            <p>Категория: </p>
+            <select multiple size="1"  name="category">
+                <option value="1">Спорт</option>
+                <option value="2">Сад</option>
+                <option selected value="3">Электроника</option>
+                <option value="4">Игрушки</option>
+            </select>
+        </label>
+        <label>
+            <p>Вы нажали на чекбокс?</p>
+            <input checked type="checkbox" value="1" name="choice">
+        </label>
+
+        <div>
+            <button>Добавить</button>
+        </div>
+    </form>
+
+
+</body>
+</html>
+
