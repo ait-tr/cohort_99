@@ -1,0 +1,39 @@
+### New Profile
+POST /api/user-profiles
+Content-Type: application/json
+
+{
+  "lastname": "Doe",
+  "phone": "123-456-7890",
+  "dateIfBirth": "1990-01-01",
+  "profession": "Developer",
+  "level": "Senior",
+  "jobTitle": "Software Engineer",
+  "isPublic": true,
+  "residence": "City",
+  "isReadyToMove": false
+}
+
+### Polu4enija info o profile polsovatelja id {{id}}
+GET /api/user-profiles/1
+
+
+
+### Upddate Profile po id {{id}}
+PUT /api/user-profiles/1
+Content-Type: application/json
+
+{
+  "lastname": "UpdatedLastName",
+  "phone": "555-555-5555",
+  "dateOfBirth": "1985-05-05",
+  "profession": "Designer",
+  "level": "Junior",
+  "jobTitle": "UI/UX Designer",
+  "isPublic": false,
+  "residence": "Another City",
+  "isReadyToMove": true
+}
+
+###Delete Profile polsovatelja id {{id}}
+DELETE /api/user-profiles/1

@@ -1,0 +1,18 @@
+### Create ForeignLanguage
+POST localhost:8080/api/languages
+Content-Type: application/json
+
+{
+  "name": "English"
+}
+
+###Update ForeignLanguage
+PUT localhost:8080/api/languages/1
+Content-Type: application/json
+
+{
+  "name": "Updated English"
+}
+
+###Delete ForeignLanguage
+DELETE localhost:8080/api/languages/1

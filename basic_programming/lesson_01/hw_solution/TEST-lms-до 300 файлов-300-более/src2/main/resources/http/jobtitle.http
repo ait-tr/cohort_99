@@ -1,0 +1,28 @@
+### Add new jobTitle
+POST localhost:8080/api/jobtitle
+Content-Type: application/json
+
+{
+  "name": "Средн0ее"
+}
+
+
+### Update jobTitle
+PUT http://localhost:8080/api/jobtitle/2
+Content-Type: application/json
+
+{
+  "name": "Высшее"
+}
+
+
+### Get all jobTitle
+GET localhost:8080/api/jobtitle/all
+
+
+### Get jobTitle
+GET localhost:8080/api/jobtitle/1
+
+
+### Delete jobTitle
+DELETE localhost:8080/api/jobtitle/3

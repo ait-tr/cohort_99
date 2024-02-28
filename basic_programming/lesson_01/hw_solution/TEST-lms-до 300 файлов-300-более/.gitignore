@@ -1,0 +1,64 @@
+# Исключаем временные файлы и каталоги
+**/target/
+**/build/
+**/out/
+
+# Исключаем файлы IDE (например, для IntelliJ IDEA и Eclipse)
+.idea/
+.metadata/
+.vscode/
+
+# Исключаем логи и отчеты о сборке
+*.log
+*.log.*
+*.tmp
+*.swp
+*.bak
+*.cache
+*.project
+*.classpath
+*.iml
+
+# Исключаем сгенерированные файлы сборки и зависимости
+target/
+build/
+bin/
+node_modules/
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+*.bz2
+*.tar.bz2
+*.tar.xz
+*.bz2
+*.log
+.idea
+
+# Исключаем файлы логов Spring Boot
+logs/
+
+# Исключаем файлы для отладки
+.dump
+*.hprof
+hs_err_pid*
+
+# Исключаем файлы авторизации и пароли
+securityFilterConfig.properties
+userConfig.properties
+
+# Исключаем файлы для тестирования
+test-output/
+
+# Исключаем файлы для контейнеров Docker
+target/
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+db/
