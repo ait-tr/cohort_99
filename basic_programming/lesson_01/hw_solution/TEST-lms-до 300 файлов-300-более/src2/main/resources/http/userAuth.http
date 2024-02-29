@@ -1,8 +1,0 @@
-### Register User
-POST localhost:8080/api/auth/register
-Content-Type: application/json
-
-{
-  "email": "test@mail.com",
-  "password": "Qwerty12345!"
-}

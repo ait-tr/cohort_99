@@ -1,2 +1,0 @@
-# competencies
-AIT-Comppetencies Project

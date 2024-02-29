@@ -1,2 +1,0 @@
-### Get my profile
-POST localhost:8080/api/user/me
