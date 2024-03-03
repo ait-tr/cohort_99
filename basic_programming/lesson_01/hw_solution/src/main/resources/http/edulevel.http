@@ -1,0 +1,28 @@
+### Add new eduLevel
+POST localhost:8080/api/edulevel
+Content-Type: application/json
+
+{
+  "name": "Среднее"
+}
+
+
+### Update eduLevel
+PUT http://localhost:8080/api/edulevel/1
+Content-Type: application/json
+
+{
+  "name": "Высшее"
+}
+
+
+### Get all eduLevel
+GET localhost:8080/api/edulevel/all
+
+
+### Get eduLevel
+GET localhost:8080/api/edulevel/1
+
+
+### Delete edulevel
+DELETE localhost:8080/api/edulevel/1
