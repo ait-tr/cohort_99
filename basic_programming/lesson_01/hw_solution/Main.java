@@ -1,4 +1,4 @@
-public class Main {
+public class Main {				// variant 2
     public static void main(String[] args) {
         System.out.println("Hello Java!"); // печать с новой строки
         System.out.print("Hello Cohort 31_1!"); // печать на той же строке
