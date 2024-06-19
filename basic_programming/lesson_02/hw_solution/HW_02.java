@@ -1,5 +1,7 @@
 public class HW_02 {
+
     public static void main(String[] args) {
+
         String myName = "Bill Johnson";
         String myAge = "35";
         String myCity = "Berlin";
