@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  background-image: url('media/background_img.png');
+  background-position: center;
+  height: 740px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+}
+
+h1 {
+  color: white;
+  font-size: 64px;
+  text-align: center;
+  width: 1000px;
+}
+
+.header > p {
+  color: white;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
